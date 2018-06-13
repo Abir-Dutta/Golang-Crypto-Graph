@@ -9,7 +9,7 @@ Data Types
 3. float32
 4. float64
 5. string
-
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ```go
 package main
