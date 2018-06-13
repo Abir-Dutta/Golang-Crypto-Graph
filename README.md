@@ -10,9 +10,8 @@ Data Types
 4. float64
 5. string
 
-var a int = 3
-var b float64 = 3.4
 
+```go
 package main
 
 import ("fmt"
@@ -52,4 +51,4 @@ func main() {
 	//fmt.Println(&e)
 	fmt.Println(e)
 }
-
+```
