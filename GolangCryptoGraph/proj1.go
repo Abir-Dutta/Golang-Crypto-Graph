@@ -135,7 +135,7 @@ func main() {
 		fmt.Println(ele.MetaData.DigitalCurrencyCode + "," + ele.MetaData.DigitalCurrencyName)
 	}
 	http.HandleFunc("/", goGetHandler)
-	appStartErr := http.ListenAndServe(":8000", nil)
+	appStartErr := http.ListenAndServe(":80", nil)
 	log.Println(appStartErr)
-	fmt.Println("Server Started on 8000")
+	fmt.Println("Server Started on 80")
 }
